@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/imooc_music_app.iml" filepath="$PROJECT_DIR$/imooc_music_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc_voice/imooc_voice.iml" filepath="$PROJECT_DIR$/imooc_voice/imooc_voice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_audio/lib_audio.iml" filepath="$PROJECT_DIR$/lib_audio/lib_audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" filepath="$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" filepath="$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_network/lib_network.iml" filepath="$PROJECT_DIR$/lib_network/lib_network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" filepath="$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" filepath="$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_share/lib_share.iml" filepath="$PROJECT_DIR$/lib_share/lib_share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_update/lib_update.iml" filepath="$PROJECT_DIR$/lib_update/lib_update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_video/lib_video.iml" filepath="$PROJECT_DIR$/lib_video/lib_video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_webview/lib_webview.iml" filepath="$PROJECT_DIR$/lib_webview/lib_webview.iml" />
+    </modules>
+  </component>
+</project>
