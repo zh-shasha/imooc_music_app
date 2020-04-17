@@ -12,6 +12,12 @@ import android.widget.TextView;
 
 import com.imooc.imooc_voice.R;
 
+import java.util.Observable;
+import java.util.Observer;
+
+import io.reactivex.ObservableEmitter;
+import io.reactivex.ObservableOnSubscribe;
+
 public class FriendFragment extends Fragment {
 
     private Context mContext;

@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/imooc_music_app.iml" filepath="$PROJECT_DIR$/imooc_music_app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/imooc_voice/imooc_voice.iml" filepath="$PROJECT_DIR$/imooc_voice/imooc_voice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_audio/lib_audio.iml" filepath="$PROJECT_DIR$/lib_audio/lib_audio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" filepath="$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" filepath="$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_network/lib_network.iml" filepath="$PROJECT_DIR$/lib_network/lib_network.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" filepath="$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" filepath="$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_share/lib_share.iml" filepath="$PROJECT_DIR$/lib_share/lib_share.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_update/lib_update.iml" filepath="$PROJECT_DIR$/lib_update/lib_update.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_video/lib_video.iml" filepath="$PROJECT_DIR$/lib_video/lib_video.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_webview/lib_webview.iml" filepath="$PROJECT_DIR$/lib_webview/lib_webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc_music_app.iml" filepath="$PROJECT_DIR$/imooc_music_app.iml" group="imooc_music_app" />
+      <module fileurl="file://$PROJECT_DIR$/imooc_voice/imooc_voice.iml" filepath="$PROJECT_DIR$/imooc_voice/imooc_voice.iml" group="imooc_music_app/imooc_voice" />
+      <module fileurl="file://$PROJECT_DIR$/lib_audio/lib_audio.iml" filepath="$PROJECT_DIR$/lib_audio/lib_audio.iml" group="imooc_music_app/lib_audio" />
+      <module fileurl="file://$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" filepath="$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" group="imooc_music_app/lib_commin_ui" />
+      <module fileurl="file://$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" filepath="$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" group="imooc_music_app/lib_image_loader" />
+      <module fileurl="file://$PROJECT_DIR$/lib_network/lib_network.iml" filepath="$PROJECT_DIR$/lib_network/lib_network.iml" group="imooc_music_app/lib_network" />
+      <module fileurl="file://$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" filepath="$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" group="imooc_music_app/lib_pullalive" />
+      <module fileurl="file://$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" filepath="$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" group="imooc_music_app/lib_qrcode" />
+      <module fileurl="file://$PROJECT_DIR$/lib_share/lib_share.iml" filepath="$PROJECT_DIR$/lib_share/lib_share.iml" group="imooc_music_app/lib_share" />
+      <module fileurl="file://$PROJECT_DIR$/lib_update/lib_update.iml" filepath="$PROJECT_DIR$/lib_update/lib_update.iml" group="imooc_music_app/lib_update" />
+      <module fileurl="file://$PROJECT_DIR$/lib_video/lib_video.iml" filepath="$PROJECT_DIR$/lib_video/lib_video.iml" group="imooc_music_app/lib_video" />
+      <module fileurl="file://$PROJECT_DIR$/lib_webview/lib_webview.iml" filepath="$PROJECT_DIR$/lib_webview/lib_webview.iml" group="imooc_music_app/lib_webview" />
     </modules>
   </component>
 </project>

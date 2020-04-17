@@ -14,7 +14,6 @@ public class RequestCenter {
 
     static class HttpConstants {
         private static final String ROOT_URL = "http://imooc.com/api";
-
         /**
          * 首页请求接口
          */

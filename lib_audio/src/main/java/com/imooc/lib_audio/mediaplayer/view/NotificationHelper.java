@@ -28,7 +28,6 @@ public class NotificationHelper {
     public static final String CHANNEL_ID = "channel_id_audio";
     public static final String CHANNEL_NAME = "channel_name_audio";
     public static final int NOTIFICATION_ID = 0x111;
-
     /**
      * UI相关
      */
@@ -49,7 +48,6 @@ public class NotificationHelper {
     public static NotificationHelper getInstance() {
         return SingletonHolder.instance;
     }
-
     private static class SingletonHolder {
         private static NotificationHelper instance = new NotificationHelper();
     }

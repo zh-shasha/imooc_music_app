@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.hackware1993:MagicIndicator:1.5.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b9a78fe799f0b49854583c1d2833bc1c/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b9a78fe799f0b49854583c1d2833bc1c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3630577bae30fd1a89ae0149a805c2aa/MagicIndicator-1.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3630577bae30fd1a89ae0149a805c2aa/MagicIndicator-1.5.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
