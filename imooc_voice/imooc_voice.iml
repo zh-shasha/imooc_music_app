@@ -133,5 +133,6 @@
     <orderEntry type="module" module-name="lib_image_loader" />
     <orderEntry type="module" module-name="lib_audio" />
     <orderEntry type="module" module-name="lib_share" />
+    <orderEntry type="module" module-name="lib_pullalive" />
   </component>
 </module>

@@ -1,14 +1,17 @@
 package com.imooc.imooc_voice.view.loading;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.annotation.RequiresApi;
 
 import com.imooc.imooc_voice.R;
 import com.imooc.imooc_voice.view.home.HomeActivity;
 import com.imooc.lib_commin_ui.base.BaseActivity;
 import com.imooc.lib_commin_ui.base.constant.Constant;
+import com.imooc.lib_pullalive.app.AliveJobService;
 
 public class LoadingActivity extends BaseActivity {
 
@@ -20,10 +23,12 @@ public class LoadingActivity extends BaseActivity {
         }
     };
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_layout);
+        pullAliveService();
         if (hasPermission(Constant.WRITE_READ_EXTERNAL_PERMISSION)) {
             doSDCardPermission();
         } else {
@@ -31,7 +36,10 @@ public class LoadingActivity extends BaseActivity {
         }
     }
 
-
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    private void pullAliveService(){
+        AliveJobService.start(this);
+    }
     @Override
     public void doSDCardPermission() {
         mHandler.sendEmptyMessageDelayed(0, 3000);
