@@ -122,6 +122,7 @@ public class MusicService extends Service implements NotificationHelper.Notifica
         //更新notification状态为play态
         NotificationHelper.getInstance().showPlayStatus();
     }
+
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onAudioPauseEvent(AudioPauseEvent event) {
         //更新notification状态为pause态

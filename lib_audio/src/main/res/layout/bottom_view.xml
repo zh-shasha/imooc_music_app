@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#999999"
                 android:textSize="12sp"
-                tools:text="隔壁老樊" />
+                tools:text="隔避老攀" />
         </LinearLayout>
 
         <LinearLayout

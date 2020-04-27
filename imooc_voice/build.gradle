@@ -28,6 +28,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation this.rootProject.depsLibs.appcompat
+    implementation this.rootProject.depsLibs.recyclerview
+
     //rxjava
     implementation rootProject.depsLibs.rxjava
     implementation rootProject.depsLibs.rxandroid
@@ -42,5 +44,4 @@ dependencies {
     implementation project(':lib_audio')
     implementation project(':lib_share')
     implementation project(':lib_pullalive')
-
 }

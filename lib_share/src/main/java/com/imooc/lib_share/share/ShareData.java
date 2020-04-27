@@ -1,7 +1,5 @@
 package com.imooc.lib_share.share;
 
-
-
 import cn.sharesdk.framework.Platform.ShareParams;
 
 

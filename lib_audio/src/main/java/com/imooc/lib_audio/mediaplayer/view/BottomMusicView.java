@@ -23,8 +23,6 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.util.Observable;
-
 /**
  * 播放器底部View
  */
@@ -96,6 +94,7 @@ public class BottomMusicView extends RelativeLayout {
             }
         });
     }
+
     @Override
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();

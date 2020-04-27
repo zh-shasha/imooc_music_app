@@ -20,7 +20,9 @@ import java.util.HashMap;
 import cn.sharesdk.framework.Platform;
 import cn.sharesdk.framework.PlatformActionListener;
 
-
+/**
+ * Created by renzhiqiang on 19/5/13.
+ */
 public class ShareDialog extends Dialog {
 
     private Context mContext;

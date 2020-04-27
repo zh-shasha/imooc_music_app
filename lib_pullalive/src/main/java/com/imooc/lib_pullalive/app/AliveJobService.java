@@ -1,5 +1,6 @@
 package com.imooc.lib_pullalive.app;
 
+import android.annotation.TargetApi;
 import android.app.job.JobInfo;
 import android.app.job.JobParameters;
 import android.app.job.JobScheduler;
@@ -11,13 +12,12 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
 
 /**
  * 一个轻量的后台job service,利用空闲时间执行一些小事情，提高进程不被回收的概率
  */
-@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+@TargetApi(value = Build.VERSION_CODES.LOLLIPOP)
 public class AliveJobService extends JobService {
     private static final String TAG = AliveJobService.class.getName();
     private static final int PULL_ALIVE = 0x01;
@@ -96,4 +96,5 @@ public class AliveJobService extends JobService {
         mHandler.removeCallbacksAndMessages(null);
         return false;
     }
+
 }
