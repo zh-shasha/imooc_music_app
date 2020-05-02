@@ -13,7 +13,7 @@ import com.imooc.imooc_voice.view.login.manager.UserManager;
 import com.imooc.imooc_voice.view.login.user.LoginEvent;
 import com.imooc.imooc_voice.view.login.user.User;
 import com.imooc.lib_commin_ui.base.BaseActivity;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataListener;
+import com.imooc.lib_network.okhttp.listener.DisposeDataListener;
 import com.imooc.lib_network.okhttp.utils.ResponseEntityToModule;
 
 import org.greenrobot.eventbus.EventBus;

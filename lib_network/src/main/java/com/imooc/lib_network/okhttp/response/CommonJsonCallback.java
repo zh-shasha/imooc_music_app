@@ -4,8 +4,8 @@ import android.os.Handler;
 import android.os.Looper;
 
 import com.imooc.lib_network.okhttp.exception.OkHttpException;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataHandle;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataListener;
+import com.imooc.lib_network.okhttp.listener.DisposeDataHandle;
+import com.imooc.lib_network.okhttp.listener.DisposeDataListener;
 import com.imooc.lib_network.okhttp.utils.ResponseEntityToModule;
 
 import org.json.JSONObject;

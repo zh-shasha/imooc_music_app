@@ -16,6 +16,7 @@ import com.imooc.lib_commin_ui.recyclerview.MultiItemTypeAdapter;
 import com.imooc.lib_commin_ui.recyclerview.base.ItemViewDelegate;
 import com.imooc.lib_commin_ui.recyclerview.base.ViewHolder;
 import com.imooc.lib_image_loader.app.ImageLoaderManager;
+import com.imooc.lib_video.videoplayer.core.VideoAdContext;
 
 import java.util.List;
 
@@ -30,8 +31,9 @@ public class FriendRecyclerAdapter extends MultiItemTypeAdapter {
         super(context, datas);
         mContext = context;
         addItemViewDelegate(MUSIC_TYPE, new MusicItemDelegate());
+        addItemViewDelegate(VIDEO_TYPE,new VideoItemDelegate());
     }
-
+    //音乐类型item
     private class MusicItemDelegate implements ItemViewDelegate<FriendBodyValue> {
 
         @Override
@@ -79,6 +81,41 @@ public class FriendRecyclerAdapter extends MultiItemTypeAdapter {
             MultiImageViewLayout imageViewLayout = holder.getView(R.id.image_layout);
             imageViewLayout.setList(recommandBodyValue.pics);
 
+        }
+    }
+    /**
+     * 视频类型item
+     */
+    private class VideoItemDelegate implements ItemViewDelegate<FriendBodyValue> {
+
+        @Override
+        public int getItemViewLayoutId() {
+            return R.layout.item_friend_list_video_layout;
+        }
+
+        @Override
+        public boolean isForViewType(FriendBodyValue item, int position) {
+            return item.type == FriendRecyclerAdapter.VIDEO_TYPE;
+        }
+
+        @Override
+        public void convert(ViewHolder holder, FriendBodyValue recommandBodyValue, int position) {
+            RelativeLayout videoGroup = holder.getView(R.id.video_layout);
+            VideoAdContext mAdsdkContext = new VideoAdContext(videoGroup, recommandBodyValue.videoUrl);
+            holder.setText(R.id.fansi_view, recommandBodyValue.fans + "粉丝");
+            holder.setText(R.id.name_view, recommandBodyValue.name + " 分享视频");
+            holder.setText(R.id.text_view, recommandBodyValue.text);
+            holder.setOnClickListener(R.id.guanzhu_view, new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (!UserManager.getInstance().hasLogin()) {
+                        //goto login
+                        LoginActivity.start(mContext);
+                    }
+                }
+            });
+            ImageView avatar = holder.getView(R.id.photo_view);
+            ImageLoaderManager.getInstance().displayImageForCircle(avatar, recommandBodyValue.avatr);
         }
     }
 }

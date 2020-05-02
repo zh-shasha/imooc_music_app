@@ -1,9 +1,9 @@
 package com.imooc.lib_network.okhttp;
 
+import com.imooc.lib_network.okhttp.https.HttpsUtils;
+import com.imooc.lib_network.okhttp.listener.DisposeDataHandle;
 import com.imooc.lib_network.okhttp.response.CommonFileCallback;
 import com.imooc.lib_network.okhttp.response.CommonJsonCallback;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataHandle;
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -48,6 +48,15 @@ public class CommonOkHttpClient {
         okhttpClientBuilder.writeTimeout(TIME_OUT, TimeUnit.SECONDS);
         okhttpClientBuilder.followRedirects(true);
         mOkHttpClient = okhttpClientBuilder.build();
+        /**
+         * trust all the https point
+         */
+        okhttpClientBuilder.sslSocketFactory(HttpsUtils.initSSLSocketFactory(),
+                HttpsUtils.initTrustManager());
+        mOkHttpClient = okhttpClientBuilder.build();
+    }
+    public static OkHttpClient getOkHttpClient() {
+        return mOkHttpClient;
     }
 
     /**

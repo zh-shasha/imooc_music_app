@@ -13,7 +13,7 @@ import com.imooc.lib_image_loader.app.ImageLoaderManager;
 import java.util.List;
 
 /**
- * 显示1~N张图片的View
+ * 自定义View：显示1~N张图片的View
  */
 public class MultiImageViewLayout extends LinearLayout {
     public static int MAX_WIDTH = 0;

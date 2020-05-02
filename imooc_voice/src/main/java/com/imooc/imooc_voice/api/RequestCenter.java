@@ -3,10 +3,11 @@ package com.imooc.imooc_voice.api;
 import com.imooc.imooc_voice.view.friend.model.BaseFriendModel;
 import com.imooc.imooc_voice.view.login.user.User;
 import com.imooc.lib_network.okhttp.CommonOkHttpClient;
+import com.imooc.lib_network.okhttp.listener.DisposeDataHandle;
+import com.imooc.lib_network.okhttp.listener.DisposeDataListener;
 import com.imooc.lib_network.okhttp.request.CommonRequest;
 import com.imooc.lib_network.okhttp.request.RequestParams;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataHandle;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataListener;
+
 
 /**
  * 请求中心

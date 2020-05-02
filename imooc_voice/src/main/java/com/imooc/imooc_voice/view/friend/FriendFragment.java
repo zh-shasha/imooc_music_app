@@ -19,14 +19,14 @@ import com.imooc.imooc_voice.view.friend.adapter.FriendRecyclerAdapter;
 import com.imooc.imooc_voice.view.friend.model.BaseFriendModel;
 import com.imooc.imooc_voice.view.friend.model.FriendBodyValue;
 import com.imooc.lib_commin_ui.recyclerview.wrapper.LoadMoreWrapper;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataListener;
+import com.imooc.lib_network.okhttp.listener.DisposeDataListener;
 import com.imooc.lib_network.okhttp.utils.ResponseEntityToModule;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 首页发现fragment
+ * 朋友fragment
  */
 public class FriendFragment extends Fragment
         implements SwipeRefreshLayout.OnRefreshListener, LoadMoreWrapper.OnLoadMoreListener {
@@ -62,6 +62,7 @@ public class FriendFragment extends Fragment
                              @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_friend_layout, null);
         mSwipeRefreshLayout = rootView.findViewById(R.id.refresh_layout);
+        //设置下拉刷新的图标颜色设置
         mSwipeRefreshLayout.setColorSchemeColors(
                 getResources().getColor(android.R.color.holo_red_light));
         mSwipeRefreshLayout.setOnRefreshListener(this);

@@ -5,8 +5,9 @@ import android.os.Looper;
 import android.os.Message;
 
 import com.imooc.lib_network.okhttp.exception.OkHttpException;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDataHandle;
-import com.imooc.lib_network.okhttp.response.listener.DisposeDownloadListener;
+import com.imooc.lib_network.okhttp.listener.DisposeDataHandle;
+import com.imooc.lib_network.okhttp.listener.DisposeDownloadListener;
+
 
 import java.io.File;
 import java.io.FileOutputStream;

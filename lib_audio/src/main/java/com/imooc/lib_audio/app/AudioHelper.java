@@ -21,6 +21,7 @@ public final class AudioHelper {
 
     public static void init(Context context) {
         mContext = context;
+        //初始化本地数据库
         GreenDaoHelper.initDatabase();
     }
 

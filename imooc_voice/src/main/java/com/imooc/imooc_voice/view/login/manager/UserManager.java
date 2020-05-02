@@ -8,7 +8,7 @@ import com.imooc.imooc_voice.view.login.user.User;
 public class UserManager {
 
     private static UserManager mInstance;
-    private User mUser;
+    private User mUser = null;
 
     public static UserManager getInstance() {
         if (mInstance == null) {
@@ -37,7 +37,9 @@ public class UserManager {
     private void saveLocal(User user) {
 
     }
-
+    public boolean hasLogined(){
+        return mUser == null ? false : true;
+    }
     /**
      * 获取用户信息
      *

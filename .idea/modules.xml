@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/imooc_music_app.iml" filepath="$PROJECT_DIR$/imooc_music_app.iml" group="imooc_music_app" />
       <module fileurl="file://$PROJECT_DIR$/imooc_voice/imooc_voice.iml" filepath="$PROJECT_DIR$/imooc_voice/imooc_voice.iml" group="imooc_music_app/imooc_voice" />
       <module fileurl="file://$PROJECT_DIR$/lib_audio/lib_audio.iml" filepath="$PROJECT_DIR$/lib_audio/lib_audio.iml" group="imooc_music_app/lib_audio" />
+      <module fileurl="file://$PROJECT_DIR$/lib_base/lib_base.iml" filepath="$PROJECT_DIR$/lib_base/lib_base.iml" group="imooc_music_app/lib_base" />
       <module fileurl="file://$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" filepath="$PROJECT_DIR$/lib_commin_ui/lib_commin_ui.iml" group="imooc_music_app/lib_commin_ui" />
       <module fileurl="file://$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" filepath="$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" group="imooc_music_app/lib_image_loader" />
       <module fileurl="file://$PROJECT_DIR$/lib_network/lib_network.iml" filepath="$PROJECT_DIR$/lib_network/lib_network.iml" group="imooc_music_app/lib_network" />
